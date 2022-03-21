@@ -1,0 +1,48 @@
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #2aa4d530;
+  overflow: hidden;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 300ms;
+}
+
+.card:hover {
+  background-color: #2aa4d550;
+}
+
+.card .nameContainer, .card .dimensionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card .dimensionContainer {
+  padding-top: 10px;
+}
+
+.card .nameContainer {
+  padding-bottom: 10px;
+  flex-grow: 1;
+  background-color: #2aa4d530;
+}
+
+.card .name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card .dimension {
+  text-align: center;
+}
