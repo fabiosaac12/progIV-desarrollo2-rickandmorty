@@ -69,6 +69,7 @@
   background-color: #fff;
   overflow: hidden;
   padding: 30px;
+  max-width: 500px;
 }
 
 #modal .header {
@@ -103,4 +104,30 @@
   min-width: 100px;
   font-weight: bold;
   color: #2aa4d5;
+}
+
+@media (max-width: 700px) {
+  #modal {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  #modal .header > div {
+    width: 50%;
+  }
+
+  #modal .header #image {
+    width: 100%;
+    height: auto;
+  }
+
+  #modal .header .nameWrapper {
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  #modal .header #name {
+    text-align: center;
+  }
 }

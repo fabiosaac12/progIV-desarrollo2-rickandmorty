@@ -47,20 +47,11 @@
   border-bottom-right-radius: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #header {
     flex-direction: column;
   }
-
-  #header .item:nth-child(1) {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 0;
-  }
-
-  #header .item:nth-last-child(1) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+  #header .divider:nth-child(1) {
+    margin-bottom: 10px;
   }
 }
